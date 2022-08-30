@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration:none ;
+    list-style: none;
+    box-sizing: border-box;
+
+
+}
+.container{
+    background-image: url('/assets/images/adminbg.jpg');
+    background-size: cover;
+    height: calc(100vh - 100px);
+    width: 900px;
+}
+nav{
+    padding: 2px 0px;
+    background: none;
+    height: 70px;
+    width: 100%;
+}
+h2{
+    color: rgba(235, 16, 16, 0.683);
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+   
+    float: none;
+    margin-left: 100px;
+}
+nav ul li{
+    
+    
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 9px;
+}
+nav ul li a{
+   
+    color: rgba(16, 3, 255, 0.804);
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+nav ul a:hover{
+    background-color: rgb(154, 253, 154);
+    padding: 3px 10px;
+    
+}

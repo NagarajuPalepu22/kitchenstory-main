@@ -1,0 +1,35 @@
+.home{
+    background-image: url('/assets/images/bg.jpg');
+   background-size: cover;
+   height: calc(80vh - 9px);
+}
+.home ul{
+    font-size: 50px;
+    font-weight: bold;
+    color:	#5a05d0cc;
+}
+.container{
+    top: 30%;
+    left:5%;
+    position: relative;
+    text-align: center;
+}
+.container a{
+   
+    text-decoration:none;
+    font-weight: bold;
+     color: rgb(59, 9, 146);
+     background-color: aliceblue;
+     padding:10px 20px ;
+     border-radius: 10px;
+
+}
+  .container a:hover{
+    background-color: #0aff53;
+ }
+ .search{
+    align-items: center;
+ }
+ .search input{
+    size: 60px;
+ }

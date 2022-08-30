@@ -1,0 +1,23 @@
+<section class="products">
+    <div class="conatainer">
+        <div class="row">
+            <div class="col-md-3" *ngFor="let product of productList">
+                <div class="box">
+                    <div class="product_image">
+                        <img src="{{product.img}}">
+                        <h3>{{product.name}}</h3>
+                        <h6>Net Quantity :{{product.NetQuantity}}</h6>
+                        <h4>₹ {{product.price}}</h4>
+                    </div>
+                    <div class="content">
+                    <button type="button" class="btn" (click)="inc(product)"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                    <span style="color:red ;">{{product.qnt}}</span>
+                    <button type="button" class="btn" (click)="dec(product)"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                </div>
+                <button type="button" class="cart_btn" (click)="addcart(product)" routerLink="/cart">Add To Cart</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
